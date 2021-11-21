@@ -12,7 +12,7 @@ function CustomButton(props) {
 }
 
 function makeCall(methodName) {
-    fetch(`http://10.0.0.50:3000/${methodName}`)
+    fetch(`http://10.0.0.50:3001/${methodName}`)
         .then(({ results }) => console.log("Results ==> ", results));
 
 }
