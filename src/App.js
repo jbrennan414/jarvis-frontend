@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import CustomButton from './CustomButton';
 
 function App() {
   return (
@@ -17,6 +18,10 @@ function App() {
         >
           Learn React
         </a>
+        <CustomButton name={"Start"}/>
+        <CustomButton name={"Stop"}/>
+        <CustomButton name={"Dock "}/>
+
       </header>
     </div>
   );
